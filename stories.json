@@ -1,0 +1,1 @@
+{"v":3,"stories":{"instastory--default":{"id":"instastory--default","name":"Default","title":"InstaStory","importPath":"./src/InstaStory.stories.ts","tags":["story"],"kind":"InstaStory","story":"Default","parameters":{"__id":"instastory--default","docsOnly":false,"fileName":"./src/InstaStory.stories.ts"}}}}
