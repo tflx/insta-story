@@ -1,0 +1,40 @@
+{
+  "name": "insta-story",
+  "version": "0.1.0",
+  "description": "Insta-like story component for Web components",
+  "source": "index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/insta-story.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build --test",
+    "dev": "npm run build:watch & npm run storybook",
+    "lint": "eslint \"**/*.{js,ts}\"",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "deploy": "npm run deploy-storybook"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {},
+  "keywords": [],
+  "author": "Torben Larsen",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-essentials": "latest",
+    "@storybook/blocks": "latest",
+    "@storybook/web-components": "latest",
+    "@storybook/web-components-vite": "latest",
+    "@whitespace/storybook-addon-html": "latest",
+    "gh-pages": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "storybook": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
