@@ -8,18 +8,23 @@ To use this component, you need to import it in your project and then use the cu
 
 ```html
 <insta-story width="500" height="300">
-  <insta-chapter>Chapter 1</insta-chapter>
-  <insta-chapter>Chapter 2</insta-chapter>
+  <insta-chapter>
+    <video
+      src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+    ></video>
+  </insta-chapter>
+  <insta-chapter>
+    <video
+      src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+    ></video>
+  </insta-chapter>
   <!-- Add more chapters as needed -->
 </insta-story>
-
-Attributes width: The width of the slider. This is a required attribute. height:
-The height of the slider. This is a required attribute. Slots The
-<insta-chapter>
-  items: These are the individual chapters or slides in the story. You can add
-  as many insta-chapter elements as you need. Importing the Component Make sure
-  to import the insta-story component in your JavaScript or TypeScript file: ;
-  Styling You can style the insta-story component using CSS. The component uses
-  Shadow DOM, so you can use CSS custom properties for styling.</insta-chapter
->
 ```
+
+## Attributes
+
+| Attribute | Description               | Type   | Default |
+| --------- | ------------------------- | ------ | ------- |
+| width     | The width of the slider.  | string | 'auto'  |
+| height    | The height of the slider. | string | 'auto'  |
