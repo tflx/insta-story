@@ -20,8 +20,15 @@
   "repository": {
     "type": "git"
   },
-  "dependencies": {},
-  "keywords": [],
+  "dependencies": {
+    "lit": "latest"
+  },
+  "keywords": [
+    "web components",
+    "storybook",
+    "typescript"
+  ],
+  "homepage": "https://tflx.github.io/insta-story/?path=/story/instastory--default",
   "author": "Torben Larsen",
   "license": "ISC",
   "devDependencies": {
