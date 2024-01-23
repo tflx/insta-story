@@ -94,8 +94,8 @@ export class InstaStory extends LitElement {
     }
   `
 
-  @property({ type: String }) width = "500px"
-  @property({ type: String }) height = "800px"
+  @property({ type: String }) width = "auto"
+  @property({ type: String }) height = "auto"
   @state() active = 0
   @queryAssignedElements({}) chapters!: Array<InstaChapter>
   progressBars: NodeListOf<HTMLProgressElement> | undefined

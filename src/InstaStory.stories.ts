@@ -27,7 +27,7 @@ export const Default: StoryObj<InstaStory> = {
   args: {},
   render: () => {
     return html`
-      <insta-story>
+      <insta-story width="500px" height="800px">
         <insta-chapter>
           <video
             src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
@@ -35,12 +35,12 @@ export const Default: StoryObj<InstaStory> = {
         </insta-chapter>
         <insta-chapter>
           <video
-            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+            src="https://videos.pond5.com/iceland-drone-waterfall-rainbow-footage-071816011_main_xxl.mp4"
           ></video>
         </insta-chapter>
         <insta-chapter>
           <video
-            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+            src="https://videos.pond5.com/kayak-paddler-beneath-icebergs-greenland-footage-096059211_main_xxl.mp4"
           ></video>
         </insta-chapter>
       </insta-story>
