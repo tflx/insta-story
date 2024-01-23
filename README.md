@@ -1,6 +1,7 @@
 # InstaStory Component
 
 The `insta-story` is a custom web component built using LitElement. 
+See example [here](https://tflx.github.io/insta-story/?path=/story/instastory--default)
 
 ## Usage
 
