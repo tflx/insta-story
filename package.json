@@ -1,6 +1,6 @@
 {
   "name": "insta-story",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Insta-like story component for Web components",
   "source": "index.ts",
   "main": "dist/index.js",
@@ -18,7 +18,8 @@
     "deploy": "npm run deploy-storybook"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/tflx/insta-story"
   },
   "dependencies": {
     "lit": "latest"
