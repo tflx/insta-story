@@ -1,6 +1,6 @@
 {
   "name": "insta-story",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Insta-like story component for Web components",
   "source": "index.ts",
   "main": "dist/index.js",
